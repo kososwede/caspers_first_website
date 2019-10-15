@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    width:100%;
+}
+body{
+    background-image: url(../pics/peugeot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+h1{
+    color: darkblue;
+    text-shadow: #fff 0px 0px 3px,
+#fff 0px 0px 3px,
+#fff 0px 0px 3px,
+#fff 0px 0px 3px,
+#fff 0px 0px 3px,
+#fff 0px 0px 3px;
+
+}
