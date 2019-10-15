@@ -37,6 +37,30 @@ html, body {
 #fff 0px 0px 3px,
 #fff 0px 0px 3px;
 text-align: center;
-font-size: 6em;
+font-size: 8em;
 
+}
+
+@media (max-width: 1020px) {
+    .heading {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .heading {
+        font-size: 2rem;
+    }
 }
