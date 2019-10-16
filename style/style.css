@@ -1,34 +1,25 @@
 html, body {
     height: 100%;
     width:100%;
-    overflow-x: hidden;
-}
-#container {
-    padding: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.masthead {
-    min-height: 30rem;
-    position: relative;
-    display: table;
-    width: 100%;
-    height: 100%;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
+.bg-img {
     background-image: url(../pics/peugeot.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.container{
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+}
 
-
-.heading{
+h1{
     color: darkblue;
     text-shadow: #fff 0px 0px 3px,
 #fff 0px 0px 3px,
@@ -37,13 +28,13 @@ html, body {
 #fff 0px 0px 3px,
 #fff 0px 0px 3px;
 text-align: center;
-font-size: 6em;
+font-size: 5em;
 
 }
 
 @media (max-width: 1020px) {
     .heading {
-        font-size: 6em;
+        font-size: 5em;
     }
 }
 
